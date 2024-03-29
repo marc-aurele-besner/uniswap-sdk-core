@@ -19,35 +19,13 @@ export enum ChainId {
   AVALANCHE = 43114,
   BASE_GOERLI = 84531,
   BASE = 8453,
-  ZORA = 7777777,
-  ZORA_SEPOLIA = 999999999,
-  ROOTSTOCK = 30,
-  BLAST = 81457
 }
 
 export const SUPPORTED_CHAINS = [
-  ChainId.MAINNET,
   ChainId.NOVA,
-  ChainId.OPTIMISM,
-  ChainId.OPTIMISM_GOERLI,
-  ChainId.OPTIMISM_SEPOLIA,
-  ChainId.ARBITRUM_ONE,
-  ChainId.ARBITRUM_GOERLI,
-  ChainId.ARBITRUM_SEPOLIA,
-  ChainId.POLYGON,
   ChainId.POLYGON_MUMBAI,
   ChainId.GOERLI,
   ChainId.SEPOLIA,
-  ChainId.CELO_ALFAJORES,
-  ChainId.CELO,
-  ChainId.BNB,
-  ChainId.AVALANCHE,
-  ChainId.BASE,
-  ChainId.BASE_GOERLI,
-  ChainId.ZORA,
-  ChainId.ZORA_SEPOLIA,
-  ChainId.ROOTSTOCK,
-  ChainId.BLAST
 ] as const
 export type SupportedChainsType = typeof SUPPORTED_CHAINS[number]
 
