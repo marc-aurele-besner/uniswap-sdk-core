@@ -1,7 +1,7 @@
 {
   "name": "test-dex-sdk-core",
   "license": "MIT",
-  "version": "4.1.5",
+  "version": "4.1.6",
   "description": "⚒️ An SDK for building applications on top of Uniswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

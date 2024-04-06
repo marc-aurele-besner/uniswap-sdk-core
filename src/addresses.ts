@@ -194,13 +194,13 @@ const BASE_GOERLI_ADDRESSES: ChainAddresses = {
 
 // Nova v3 addresses (to be updated)
 const NOVA_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x9323c1d6D800ed51Bd7C6B216cfBec678B7d0BC2',
-  multicallAddress: '0xB206027a9E0E13F05eBEFa5D2402Bab3eA716439',
-  quoterAddress: '0xedf539058e28E5937dAef3f69cEd0b25fbE66Ae9',
-  v3MigratorAddress: '0x3efe5d02a04b7351D671Db7008ec6eBA9AD9e3aE',
-  nonfungiblePositionManagerAddress: '0x3c61369ef0D1D2AFa70d8feC2F31C5D6Ce134F30',
-  tickLensAddress: '0x1acB873Ee909D0c98adB18e4474943249F931b92',
-  swapRouter02Address: '0x8357227D4eDc78991Db6FDB9bD6ADE250536dE1d'
+  v3CoreFactoryAddress: '0xaA8244D4170d82cD8B563A938688D22020dfba57',
+  multicallAddress: '0x042dE258B58F316f8c60623AB68c3d9776F55A9B',
+  quoterAddress: '0x6c0E7ee7F6Ca01C1edbf04D095579D699d3600Fe',
+  v3MigratorAddress: '0x3899C4D144f04EBf1731a5149c339E132d1cd53E',
+  nonfungiblePositionManagerAddress: '0xb679d99460E4C89C44354CCFcBA0Ee29E097a8b2',
+  tickLensAddress: '0x68e78a3f747BFEa2517Dc1cA25C0C9B447643930',
+  swapRouter02Address: '0xe36A34026eD8d6cca45699bCAa83c309344Bc345'
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
